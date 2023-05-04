@@ -1,0 +1,65 @@
+.features-section .container {
+    margin-bottom: -45px;
+}
+
+.features-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'themify';
+
+    background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+}
+
+.feature {
+    margin-bottom: 45px;
+}
+
+.feature i {
+    font-size: 48px;
+    float: left;
+    padding-top: 10px;
+}
+
+.feature .feature-content {
+    padding-left: 70px;
+}
+
+.feature .feature-content h4 {
+    margin-bottom: 15px;
+}
+
+.feature .readmore {
+    text-decoration: underline;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.section-title h2 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+    font-family: "Futura", sans-serif;
+}
+
+.h2,
+h2 {
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center !important;
+}

@@ -1,0 +1,17 @@
+.tradingview-widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tradingview-widget-container__widget {
+    max-width: 100%;
+    height: 100%;
+}
+
+.blue-text {
+    color: blue;
+}
+
+/* You can adjust the styles based on your preferences */

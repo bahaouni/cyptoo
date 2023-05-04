@@ -1,0 +1,109 @@
+.newsletter-section {
+    top: -500px;
+    position: relative;
+	padding: 50px 0;
+    background: linear-gradient(to right, #3e2bce 0%, #2dd3aa 100%, #2dd3aa 100%, #2dd3aa 100%);
+box-sizing: border-box;}
+ .newsletter-text h2 {
+	font-size: 36px;
+	margin-bottom: 10px;
+    position: relative;
+    right: -100px;
+    top: -20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+
+}
+
+.newsletter-text p {
+	margin-bottom: 0;
+    position: relative;
+    right: -100px;
+    top: -30px;
+    font-size: larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.newsletter-form {
+    height: 50px;
+    box-sizing: border-box;
+
+	position: relative;
+	margin-top: 20px;
+	padding-left: 40px;
+}
+.col-md-8 {
+    box-sizing: border-box;
+
+    /* -webkit-box-flex: 0; */
+    /* flex: 0 0 66.666667%; */
+    max-width: 66.666667%;
+}
+
+.newsletter-form input {
+	width: 100%;
+    height: 20px;
+    top: -10px;
+    position: relative;
+    left: -20px;
+	font-size: 16px;
+	padding: 12px 30px;
+	border: none;
+	border-radius: 50px;
+	padding-right: 160px;
+	background:     rgba(255, 255, 255, 0.2);
+	color: #5c3737;
+        box-sizing: border-box;
+    
+}
+
+.newsletter-form button {
+	position: absolute;
+	right: -130px;
+	top: 0px;
+	height: 100%;
+	border: none;
+	border-radius: 0px 50px 50px 0px;
+	min-width: 140px;
+	background: #4ae5d5;
+	color: #20509e;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.newsletter-form ::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.newsletter-form :-ms-input-placeholder {
+	color: #fff;
+}
+
+.newsletter-form ::-ms-input-placeholder {
+	color: #fff;
+}
+
+.newsletter-form ::placeholder {
+	color: #fff;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.newsletter-text{color: #fff;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;}
+    
+.newsletter-text.h2{color: #2dd3aa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;}

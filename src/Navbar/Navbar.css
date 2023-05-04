@@ -1,0 +1,63 @@
+.header-section {
+    background-color: transparent;
+    padding: 20px 0;
+    position: relative;
+    z-index: 999;
+}
+
+.header-section .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section .site-logo {
+    display: inline-block;
+    height: 40px;
+}
+
+.header-section .responsive-bar {
+    display: none;
+}
+
+.header-section .user,
+.header-section .site-btn {
+    display: inline-block;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.header-section .user:hover,
+.header-section .site-btn:hover {
+    color: #333;
+}
+
+.header-section .main-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-section .menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-section .menu-list li {
+    margin: 0 10px;
+}
+
+.header-section .menu-list li a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.header-section .menu-list li a:hover {
+    color: #333;
+}
